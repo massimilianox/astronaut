@@ -1,0 +1,23 @@
+{
+  "name": "astronaut",
+  "version": "1.0.0",
+  "description": "Learning ES6",
+  "main": "initServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massimilianox/astronaut.git"
+  },
+  "author": "Massimiliano Abeli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massimilianox/astronaut/issues"
+  },
+  "homepage": "https://github.com/massimilianox/astronaut#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "sass": "^1.7.3"
+  }
+}

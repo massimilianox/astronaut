@@ -62,7 +62,7 @@ const BlueSky = (function() {
         
         fallingStar(x, w, g, s) {
             let obj = new FallingStar(x, w, g);
-            const moveIt = new Worker('/astronaut/js/moveFallingObject.js');
+            const moveIt = new Worker('/js/moveFallingObject.js');
             const ph = playground.offsetHeight;
             moveIt.addEventListener('message', (e) => {
                 if (e.data < ph-10 && obj !== null) {

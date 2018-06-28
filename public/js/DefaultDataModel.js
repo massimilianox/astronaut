@@ -9,13 +9,13 @@ class DefaultDataModel {
             posY: -97,
             wa: 45,
             ha: 73,
-            url: '/astronaut/img/astronaut.png'
+            url: '/img/astronaut.png'
         };
         this.rock = {
             posY: -141,
             wr: 32,
             hr: 107,
-            url: '/astronaut/img/asteroid.png'
+            url: '/img/asteroid.png'
         }; 
         this.initModule(level);
     }

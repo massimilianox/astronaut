@@ -65,7 +65,7 @@ const FallingObjectGenerator = (function() {
         }
 
         fallingObject(obj, data) {
-            const moveIt = new Worker('/astronaut/js/moveFallingObject.js');
+            const moveIt = new Worker('/js/moveFallingObject.js');
             const ph = playground.offsetHeight;
             moveIt.addEventListener('message', (e) => {
                 if (e.data < ph-2 && obj !== null) {
