@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,100,100italic,400italic,700,700italic,900,900italic)
+
+#header 
+    position: relative
+    background-color: #0c223b
+    width: 600px
+    height: 40px
+    margin: auto
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4)
+    z-index: 2
+    
+#playground
+    position: relative
+    background: radial-gradient(ellipse at bottom, #213245 0%, #2e2e5c 100%)
+    width: 600px
+    height: 400px
+    margin: auto
+    overflow: hidden
+    z-index: 1
+    
+#start-game
+    position: absolute
+    top: 170px
+    left: 200px
+    border-radius: 100%
+    background-color: #0c223b
+    text-align: center
+    font-family: Lato
+    font-weight: 400
+    color: white
+    vertical-align: middle
+    padding-top: 20px
+    width: 200px
+    height: 80px
+    display: block
+    cursor: pointer
+    
+#spaceship
+    position: absolute
+    bottom: 10px
+    left: calc(50% - 40px)
+    width: 80px
+    height: 50px
+    background-image: url(/astronaut/img/spaceship.svg)
+    background-repet: no-repet
+    background-position: cover
+    cursor: grab
+    cursor: -moz-grab
+    cursor: -webkit-grab
+    
+    &:active
+        cursor: grabbing
+        cursor: -moz-grabbing
+        cursor: -webkit-grabbing
+        
+#score, #level
+    font-family: Lato
+    font-weight: 400
+    display: inline-block
+    padding: 10px
+    color: white
+    
+    > span
+        font-weight: 900
+
+#lives
+    float: right
+    margin-top: 8px
+    margin-right: 5px  
